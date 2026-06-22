@@ -94,4 +94,4 @@ Open http://localhost:5173
 - **Dashboard**: Streamlit / React 18 + Vite + Recharts + react-leaflet
 - **Raster I/O**: rasterio (preferred) / PIL (fallback)
 
-© 2024 — Final Year Project, Agricultural Remote Sensing
+Minor Project, Agricultural Remote Sensing

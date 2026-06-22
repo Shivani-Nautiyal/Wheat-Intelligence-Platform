@@ -1,0 +1,39 @@
+# ── Core scientific stack ────────────────────────────────────────────────────
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+Pillow>=10.0          # PIL — raster reading fallback when rasterio unavailable
+
+# ── Web / API ────────────────────────────────────────────────────────────────
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.0
+
+# ── Dashboard ────────────────────────────────────────────────────────────────
+streamlit>=1.35
+plotly>=5.20
+
+# ── ML persistence ───────────────────────────────────────────────────────────
+joblib>=1.3
+
+# ── Geospatial (optional but recommended) ───────────────────────────────────
+# Uncomment when your environment supports GDAL:
+rasterio>=1.3
+tifffile>=2023.0
+
+# Geocoding for place-name search
+geopy>=2.4
+
+# ── Explainability (optional) ────────────────────────────────────────────────
+# Uncomment if pip can resolve it in your environment:
+# shap>=0.44
+
+# ── Gradient boosting extras (optional) ─────────────────────────────────────
+# Uncomment the ones available in your environment:
+# xgboost>=2.0
+# lightgbm>=4.0
+# catboost>=1.2
+
+# ── PDF reporting (optional) ─────────────────────────────────────────────────
+# fpdf2>=2.7
